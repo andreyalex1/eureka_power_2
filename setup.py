@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'battery_decoder = eureka_power_2.battery_decoder:main',
+            'battery_decoder = eureka_power_2.battery_decoder_uart:main',
         ],
     },
 )
